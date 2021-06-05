@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0%;
+   
+}
+body{
+    background-color: #73573f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    width: 100%;
+    background-image: url(./Imagenes/recording-studio-1869560_1920.jpg);
+    background-size: cover;
+    color: white;
+    height: 48vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    font-size: 10vh;
+    color:white;
+}
+
+.menu{
+display: flex;
+list-style: none;
+background-color: #A66D3C;
+align-items: center;
+font-weight: 500;
+
+}
+
+.menu li {
+    margin-right: 5px;
+    height: 100%;
+    font-size: 2vh;
+   padding: 5px;
+   }
+
+.menu li:hover{
+    background-color: #73573f;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+#here{
+    background-color: #73573f;
+}
+
+.info{
+    float: right;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.description{
+    width: 48%;
+    float: right;
+    font-size: 3vh;
+    margin-left: 2%;
+}
+.service{
+    font-size: 3vh;
+    margin-left: 35%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom:5% ;
+}
+
+.imgservice p img{
+    border-radius: 5%;
+    float: left;
+    width: 50vh;
+    height: 30vh;
+    margin-right: 0vh;
+    margin-left: 7vh;
+    transition-property: width, height;
+    transition-duration: 500ms;
+}
+
+.imgservice p img:hover{
+    width: 58vh;
+    height:35vh ;
+}
