@@ -79,15 +79,15 @@ font-weight: 500;
 .imgservice p img{
     border-radius: 5%;
     float: left;
-    width: 55vh;
-    height: 30vh;
-    margin-right: 5vh;
-    margin-left: 6vh;
+    width: 52vh;
+    height: 31vh;
+    margin-right: 0vh;
+    margin-left: 13vh;
     transition-property: width, height;
     transition-duration: 500ms;
 }
 
 .imgservice p img:hover{
-    width: 60vh;
+    width: 58vh;
     height:35vh ;
 }
