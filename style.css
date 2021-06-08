@@ -32,7 +32,6 @@ list-style: none;
 background-color: #A66D3C;
 align-items: center;
 font-weight: 500;
-
 }
 
 .menu li {
@@ -67,27 +66,74 @@ font-weight: 500;
     float: right;
     font-size: 3vh;
     margin-left: 2%;
+    margin-bottom: 5%;
 }
 .service{
     font-size: 3vh;
     margin-left: 35%;
     margin-right: 20%;
-    margin-top: 5%;
-    margin-bottom:5% ;
-}
+    margin-bottom: 3%;
+    color: #0c0D07;
+    }
 
+    .imgservice{
+        display: flex;
+        
+    }
 .imgservice p img{
     border-radius: 5%;
-    float: left;
     width: 52vh;
     height: 31vh;
     margin-right: 0vh;
     margin-left: 13vh;
     transition-property: width, height;
     transition-duration: 500ms;
+    
 }
 
 .imgservice p img:hover{
     width: 58vh;
     height:35vh ;
+}
+.serText{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.serMusic a{
+    margin-left: 5vh;
+    font-size: 3vh;
+    margin-top: 2vh;
+    font-weight: bolder;
+    text-decoration:none;
+    color: #0c0D07;
+    margin-top: 4vh;
+}
+.serVideo a{
+    font-size: 3vh;
+    margin-top: 4vh;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #0c0D07;
+    
+}
+footer{
+    background-color: #84898c;
+}
+.contact{
+    display: flex;
+    list-style-type: none;
+}
+.contact li img{
+    padding: 5px;
+    text-decoration: none;
+    color: #0c0D07;
+    list-style-type: none;
+    margin-left: 10px;
+    width: 3vh;
+}
+.ficticia{
+    margin-left: 90vh;
+    margin-top: 15px;
 }
