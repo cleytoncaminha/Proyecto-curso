@@ -64,7 +64,7 @@ font-weight: 500;
 .description{
     width: 48%;
     float: right;
-    font-size: 3vh;
+    font-size: 150%;
     margin-left: 2%;
 }
 .service{
@@ -117,10 +117,12 @@ font-weight: 500;
 footer{
     background-color: #84898c;
     margin: 0;
+    margin-top: 3%;
 }
 .contact{
     display: flex;
     list-style-type: none;
+    align-items: flex-start;
 }
 .contact li img{
     padding: 5px;
@@ -132,5 +134,5 @@ footer{
 }
 .ficticia{
     margin-left: 70%;
-    margin-top: 15px;
+    padding: 1%;
 }
