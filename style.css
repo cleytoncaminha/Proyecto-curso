@@ -35,7 +35,6 @@ font-weight: 500;
 }
 
 .menu li {
-    margin-right: 5px;
     height: 100%;
     font-size: 2vh;
    padding: 5px;
@@ -57,10 +56,14 @@ font-weight: 500;
 
 .info{
     float: right;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-right: 5%;
     margin-left: 5%;
     margin-bottom: 5%;
+    
+}
+.info img{
+    border-radius: 5%;
 }
 .description{
     width: 48%;
