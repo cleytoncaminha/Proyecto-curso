@@ -57,6 +57,7 @@ font-weight: 500;
 
 .info{
     float: right;
+    margin-top: 5%;
     margin-right: 5%;
     margin-left: 5%;
     margin-bottom: 5%;
@@ -93,28 +94,6 @@ font-weight: 500;
 .imgservice p img:hover{
     padding: 10px;
 }
-.serText{
-    display: flex;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
-.serMusic a{
-    margin-left: 600%;
-    font-size: 3vh;
-    margin-top: 5%;
-    font-weight: bolder;
-    text-decoration:none;
-    color: #0c0D07;
-    margin-top: 4vh;
-}
-.serVideo a{
-    font-size: 3vh;
-    margin-top: 5%;
-    font-weight: bolder;
-    text-decoration: none;
-    color: #0c0D07;
-    margin-left: 1600%;
-}
 footer{
     background-color: #84898c;
     margin: 0;
@@ -134,8 +113,47 @@ footer{
     margin-left: 10px;
     width: 3vh;
     float: left;
+    overflow: hidden;
 }
 .ficticia{
     margin-left: 70%;
     padding: 1%;
 }
+
+@media screen and (max-width: 650px) {
+    .titulo{
+        font-size: 300%;
+    }
+    
+    .info{
+        float: none; 
+    }
+    .info img{
+        width: 100%;
+        border-radius: 5%;
+    }
+    .description{
+        float: none;
+        font-size: 90%;
+        width: 100%;
+    }
+    .imgservice{
+        display: block;
+        margin-bottom: 3%;
+        
+    }
+    .imgservice p img{
+        border-radius: 5%;
+        transition-property: padding;
+        transition-duration: 500ms;
+        width: 90%;
+        margin-left: 5%;
+        transition: none;
+    }
+    .imgservice p img:hover{
+        padding: 0px;
+    }
+}
+
+
+    
