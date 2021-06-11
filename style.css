@@ -78,22 +78,20 @@ font-weight: 500;
 
     .imgservice{
         display: flex;
+        justify-content: space-around;
         
     }
 .imgservice p img{
     border-radius: 5%;
-    width: 52vh;
-    height: 31vh;
     margin-right: 0vh;
     margin-left: 13vh;
-    transition-property: width, height;
+    transition-property: padding;
     transition-duration: 500ms;
     
 }
 
 .imgservice p img:hover{
-    width: 58vh;
-    height:35vh ;
+    padding: 10px;
 }
 .serText{
     display: flex;
