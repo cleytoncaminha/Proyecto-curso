@@ -118,11 +118,12 @@ footer{
     background-color: #84898c;
     margin: 0;
     margin-top: 3%;
+    
 }
 .contact{
-    display: flex;
     list-style-type: none;
-    align-items: flex-start;
+    list-style: none;
+    position: relative;
 }
 .contact li img{
     padding: 5px;
@@ -131,6 +132,7 @@ footer{
     list-style-type: none;
     margin-left: 10px;
     width: 3vh;
+    float: left;
 }
 .ficticia{
     margin-left: 70%;
