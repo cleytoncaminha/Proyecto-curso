@@ -69,11 +69,12 @@ font-weight: 500;
 }
 .service{
     font-size: 180%;
-    margin-left: 35%;
-    margin-right: 20%;
-    margin-bottom: 5%;
     color: #0c0D07;
-    margin-top: 3%;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
     }
 
     .imgservice{
