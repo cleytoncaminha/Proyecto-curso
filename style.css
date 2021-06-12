@@ -68,8 +68,11 @@ font-weight: 500;
 .description{
     width: 48%;
     float: right;
-    font-size: 200%;
+    font-size: 150%;
     margin-left: 2%;
+}
+.description.home{
+    font-size: 200%;
 }
 .service{
     font-size: 180%;
